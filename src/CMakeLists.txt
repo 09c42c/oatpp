@@ -2,7 +2,7 @@
 #######################################################################################################
 ## oatpp
 
-add_library(oatpp
+add_library(oatpp SHARED
         oatpp/algorithm/CRC.cpp
         oatpp/algorithm/CRC.hpp
         oatpp/codegen/ApiClient_define.hpp
